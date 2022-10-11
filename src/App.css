@@ -1,38 +1,307 @@
-.App {
+/* .App {
   text-align: center;
+} */
+*{margin: 0;}
+
+/*                  PRESENTACION                      */
+
+.presentacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.presentacion-hijo{
+  display: block;
+}
+.presentacion-hijo h3{
+  font-size:medium;
+}
+.botonera{
+  padding: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.iconos-presentacion{
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*ESTILO BOTONES*/
+.botonera button{
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+
+  background-color:  #1e293b;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.5rem ;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 400ms;
+}
+
+.botonera button:hover {
+  background-color:white;
+  color:  #1e293b;
+  
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
   }
 }
+.botonera button a{
+  color: white;
+  text-decoration: none;
+}
+.botonera button a:hover{
+ color:  #1e293b;
+ 
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/*                                           ABOUT ME             */
+.fotoCV img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  flex-wrap: wrap;
+}
+.fotoCV{
+  grid-area: foto;
+  width: 50%;
+  height: 35%;
+  border-radius: 50%;
+  transition: transform 700ms;
+  position: relative;
+  top: 70px;
+  flex-wrap: wrap;
+}
+.fotoCV:hover  {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.fotoCV {overflow:hidden;}
+.conocimientos{
+  grid-area: conoci;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.conocimientos div{
+  width: 1fr;
+  height: 1fr;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15%;
+  background-color: white;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: 400ms;
+  border: #1e293b solid 1px;
+}
+.conocimientos div:hover{
+  background-color: #4c586d;
+  border: white solid 1px;
+  color: white;
+}
+.conocimientos div ul {
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+.textoAbout{
+  margin-top: 40px;
+  grid-area: texto;
+  width: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutMe-container{
+  background-color: #1e293b;
+
+  padding-top: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas: 
+    ". conoci conoci ."
+    ". texto texto .";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.subTitulo{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*                                   EDUCATION               */
+
+.contenedor-education{
+  margin-bottom: 20px;
+}
+.education{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  
+}
+.education ul li a{
+  text-decoration: none;
+  color: #1e293b;
+}
+.education ul li {
+  list-style: none;
+  margin-top: 5px;
+  border-radius: 7px;
+  border: white solid;
+  transition: 200ms;
+}
+.education ul li:hover {
+  border-radius: 7px;
+  border: #1e293b solid;
+  background-color: #1e293b;
+  color: white;
+  
+}
+.education ul li a:hover{
+  color: white;
+}
+
+.subTitulo{
+  
+}
+
+/*                                           PROYECTOS                */
+.masContainer{
+  margin-top: 110px;
+  text-align: center;
+}
+.proyectos-container{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+}
+.proyectos-container div img{
+  width: 150px;
+  height: 150px;
+  ;
+  border-radius: 15px;
+}
+.proyectos-desarrolloWeb{
+  border: #1e293b solid 2px;
+  border-radius: 15px;
+  background-color: #1e293b;
+  color: white;
+  transition: 400ms;
+}
+.proyectos-desarrolloWeb:hover{
+  background-color: #4c586d;
+}
+.proyectos-euporie{
+  border: #1e293b solid 2px;
+  border-radius: 15px;
+  background-color: #1e293b;
+  color: white;
+  transition: 400ms;
+}
+.proyectos-euporie:hover{
+  background-color: #4c586d;
+}
+.proyectos-euporie div{
+  margin: 30px;
+}
+.proyectos-desarrolloWeb div{
+  margin: 30px;
+}
+
+.botonera-2 button{
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+
+  background-color:  white;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #1e293b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.5rem ;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 400ms;
+}
+
+.botonera-2 button:hover {
+  background-color:#1e293b;
+  color:  white;
+  
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
   }
 }
+.botonera-2 button a{
+  color: #1e293b;
+  text-decoration: none;
+}
+.botonera-2 button a:hover{
+ color:  white;
+ 
+}
+
+.container-footer{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 110px;
+  background-color: #1e293b;
+  color: white;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
