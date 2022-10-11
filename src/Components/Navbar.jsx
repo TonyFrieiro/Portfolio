@@ -1,5 +1,5 @@
 import { BsPersonLinesFill,BsTools,BsBookFill,BsLightbulbFill } from "react-icons/bs";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function NavBar () {
     return(
