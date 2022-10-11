@@ -80,11 +80,18 @@
 
 
 /*                                           ABOUT ME             */
-.fotoCV img{
-  height: 100%;
+#fotoCV2{
+  background-color: #1e293b;
+}
+#fotoCV2{
+  border: #1e293b solid 1px;
+}
+#fotoCV2 img{
+  height: 70%;
   width: 100%;
   border-radius: 50%;
   flex-wrap: wrap;
+  transition: transform 700ms;
 }
 .fotoCV{
   grid-area: foto;
@@ -96,8 +103,8 @@
   top: 70px;
   flex-wrap: wrap;
 }
-.fotoCV:hover  {-webkit-transform:scale(1.1);transform:scale(1.1);}
-.fotoCV {overflow:hidden;}
+#fotoCV2 img:hover  {-webkit-transform:scale(1.1);transform:scale(1.1);}
+#fotoCV2 img {overflow:hidden;}
 .conocimientos{
   grid-area: conoci;
   width: 100%;
@@ -105,7 +112,7 @@
   height: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
 
 }
@@ -131,10 +138,15 @@
   text-align: center;
 }
 .textoAbout{
-  margin-top: 40px;
+  padding-top: 100px;
   grid-area: texto;
   width: 100%;
+  height: 20%;
   color: white;
+}
+.textoAbout div{
+  text-align: center;
+  padding-top: 100px;
 }
 
 .aboutMe-container{
@@ -193,9 +205,7 @@
   color: white;
 }
 
-.subTitulo{
-  
-}
+
 
 /*                                           PROYECTOS                */
 .masContainer{
@@ -226,6 +236,20 @@
 }
 .proyectos-desarrolloWeb:hover{
   background-color: #4c586d;
+}
+.proyectos-portfolio{
+  border: #1e293b solid 2px;
+  border-radius: 15px;
+  background-color: #1e293b;
+  color: white;
+  transition: 400ms;
+  margin-bottom: 40px;
+}
+.proyectos-portfolio:hover{
+  background-color: #4c586d
+}
+.proyectos-portfolio div{
+  margin:30px;
 }
 .proyectos-euporie{
   border: #1e293b solid 2px;

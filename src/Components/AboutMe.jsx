@@ -1,13 +1,10 @@
-import { AiOutlineTool,AiOutlineBulb } from "react-icons/ai";
+import { AiOutlineTool,AiOutlineBulb,AiOutlineArrowDown } from "react-icons/ai";
 import fotoCV from "../imgs/cv_foto.png"
 function AboutMe (){
     return(
         <div>
             <div className="subTitulo"> <h2>Sobre mi</h2> </div>
             <div className="aboutMe-container">
-                <div className="fotoCV">
-                    <img src= {fotoCV} alt="Foto CV" />
-                </div>
                 <div className="conocimientos">
                     <div>
                         <AiOutlineBulb size = {20}></AiOutlineBulb>
@@ -19,6 +16,9 @@ function AboutMe (){
                             <li>CSS</li>
                         </ul>
                     </div>
+                    <div id="fotoCV2">
+                        <img src= {fotoCV} alt="Foto CV" />
+                    </div>
                     <div>
                         <AiOutlineTool size = {20}></AiOutlineTool>
                         <h2>Librerias</h2>
@@ -29,6 +29,7 @@ function AboutMe (){
                 </div>
                 <div className="textoAbout">
                     <p>Front end developer con conocimientos en JavaScript, React, Bootstrap con ganas de seguir aprendiendo y adquiriendo experiencia</p>
+                    <div><AiOutlineArrowDown size = {50}></AiOutlineArrowDown></div>
                 </div>
         </div>
         </div>
