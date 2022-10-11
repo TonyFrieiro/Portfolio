@@ -2,7 +2,7 @@ import { AiFillLinkedin,AiFillGithub } from "react-icons/ai";
 import pdf from "../Utils/CV.pdf"
 function Presentacion () {
     return(
-    <div className="presentacion">
+    <div className="presentacion" id="presentacion">
         <div className="presentacion-hijo">
             <h3>Hola! soy</h3>
             <h1>Tony Frieiro </h1>

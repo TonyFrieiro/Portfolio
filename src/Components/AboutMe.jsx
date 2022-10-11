@@ -2,7 +2,7 @@ import { AiOutlineTool,AiOutlineBulb,AiOutlineArrowDown } from "react-icons/ai";
 import fotoCV from "../imgs/cv_foto.png"
 function AboutMe (){
     return(
-        <div>
+        <div id="aboutMe-container">
             <div className="subTitulo"> <h2>Sobre mi</h2> </div>
             <div className="aboutMe-container">
                 <div className="conocimientos">

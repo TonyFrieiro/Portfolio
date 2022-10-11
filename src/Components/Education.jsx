@@ -2,7 +2,7 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 function Education(){
     return(
-        <div className="contenedor-education">
+        <div className="contenedor-education" id="contenedor-education">
             <div className="subTitulo"><h2>Educacion</h2></div>
             <div className="education">
                 <ul>

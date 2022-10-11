@@ -4,7 +4,7 @@ import portfolioFoto from "../imgs/preview-portfolio.PNG"
 
 function Proyectos() {
     return(
-        <div className="masContainer">
+        <div className="masContainer" id="proyectos-container">
             <div><h2>Proyectos</h2></div>
             <div className="proyectos-container">
                 <div className="proyectos-euporie">

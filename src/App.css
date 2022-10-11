@@ -23,9 +23,6 @@
   padding: 40px;
 }
 
-.iconos-presentacion{
-  
-}
 
 /*ESTILO BOTONES*/
 .botonera button{
@@ -321,7 +318,7 @@
 
 .container-footer{
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 110px;
   margin-top: 110px;
   background-color: #1e293b;
   color: white;
@@ -329,6 +326,37 @@
   align-content: center;
   justify-content: center;
   text-align: center;
+}
+
+/*                                           NAV-BAR             */
+
+.container-navbar{
+  background-color: white;
+  display: flex;
+  width: max-content;
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  /* background: hsl(233deg 20% 41% / 20%); */
+  border-radius: 3rem;
+  bottom: 2rem;
+  gap: 1rem;
+  padding: 1rem 1.7rem;
+}
+
+.container-navbar a{
+  color: #1e293b;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+.container-navbar a:active{
+  background-color:#1e293b;
+  color: var(-- white);
+  color: white;
 }
 
 
