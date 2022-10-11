@@ -353,10 +353,18 @@
   font-size: 1.1rem;
   padding: 0.5rem;
 }
-.container-navbar a:active{
+.container-navbar a:hover{
   background-color:#1e293b;
   color: var(-- white);
   color: white;
+  cursor: pointer;
+  transition: 400ms;
 }
 
+.active {
+  color: var(-- white);
+  color: white;
+  background-color: #1e293b;
+  transition: 200ms;
+}
 
