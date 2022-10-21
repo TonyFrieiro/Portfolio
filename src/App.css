@@ -25,14 +25,18 @@
 
 
 /*ESTILO BOTONES*/
-.botonera button{
+
+.button-botonera2 {
+  background-color: white;
+  border: 0px;
+}
+.botonera button a{
   margin-right: 30px;
   margin-left: 10px;
   margin-bottom: 10px;
 
-
   background-color:  #1e293b;
-  border: 0 solid #e2e8f0;
+  border: 3px solid #1e293b;
   border-radius: 1.5rem;
   box-sizing: border-box;
   color: white;
@@ -54,7 +58,7 @@
   transition: 400ms;
 }
 
-.botonera button:hover {
+.botonera button a:hover {
   background-color:white;
   color:  #1e293b;
   
@@ -231,10 +235,8 @@
   transition: 400ms;
   margin-bottom: 40px;
 }
-.proyectos-desarrolloWeb:hover{
-  background-color: #4c586d;
-}
-.proyectos-portfolio{
+
+.proyectos-paises{
   border: #1e293b solid 2px;
   border-radius: 15px;
   background-color: #1e293b;
@@ -242,10 +244,8 @@
   transition: 400ms;
   margin-bottom: 40px;
 }
-.proyectos-portfolio:hover{
-  background-color: #4c586d
-}
-.proyectos-portfolio div{
+
+.proyectos-paises div{
   margin:30px;
 }
 .proyectos-euporie{
@@ -256,9 +256,7 @@
   transition: 400ms;
   margin-bottom: 40px;
 }
-.proyectos-euporie:hover{
-  background-color: #4c586d;
-}
+
 .proyectos-euporie div{
   margin: 30px;
 }
@@ -266,14 +264,18 @@
   margin: 30px;
 }
 
-.botonera-2 button{
+.button-botonera {
+  background-color: #1e293b;
+  border:0px;
+}
+.botonera-2 button a{
   margin-right: 30px;
   margin-left: 10px;
   margin-bottom: 10px;
 
 
   background-color:  white;
-  border: 0 solid #e2e8f0;
+  border: 2px solid #e2e8f0;
   border-radius: 1.5rem;
   box-sizing: border-box;
   color: #1e293b;
@@ -295,7 +297,7 @@
   transition: 400ms;
 }
 
-.botonera-2 button:hover {
+.botonera-2 button a:hover {
   background-color:#1e293b;
   color:  white;
   

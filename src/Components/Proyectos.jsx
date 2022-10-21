@@ -1,6 +1,7 @@
 import euporieFoto from "../imgs/preview-Euporie.PNG"
 import desarrolloWebFoto from "../imgs/preview-desarrolloweb.PNG"
-import portfolioFoto from "../imgs/preview-portfolio.PNG"
+
+import buscadorPaisesFoto from "../imgs/preview-buscadorpaises.PNG"
 
 function Proyectos() {
     return(
@@ -19,16 +20,16 @@ function Proyectos() {
                         <button className="button-botonera"><a href="https://euporie-react.netlify.app/" target="_blank" rel="noopener noreferrer">Pagina</a></button>
                     </div>
                 </div>
-                <div className="proyectos-portfolio">
+                <div className="proyectos-paises">
                     <div>
-                        <div><img src={portfolioFoto} alt="Preview Proyecto" /></div>
+                        <div><img src={buscadorPaisesFoto} alt="Preview Proyecto" /></div>
                     </div>
                     <div>
-                        <h4>Portfolio Firieiro Tony</h4>
+                        <h4>Buscador de paises (Api Paises)</h4>
                     </div>
                     <div className="botonera-2">
-                        <button className="button-botonera"><a href="https://github.com/TonyFrieiro/Portfolio" target="_blank" rel="noopener noreferrer">Github</a></button>
-                        <button className="button-botonera"><a href="https://portfolio-frieiro-tony.netlify.app/" target="_blank" rel="noopener noreferrer">Pagina</a></button>
+                        <button className="button-botonera"><a href="https://github.com/TonyFrieiro/BuscadorPaises" target="_blank" rel="noopener noreferrer">Github</a></button>
+                        <button className="button-botonera"><a href="https://encuentrapais.netlify.app/" target="_blank" rel="noopener noreferrer">Pagina</a></button>
                     </div>
                 </div>
                 <div className="proyectos-desarrolloWeb">
