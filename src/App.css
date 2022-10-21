@@ -346,6 +346,7 @@
   bottom: 2rem;
   gap: 1rem;
   padding: 1rem 1.7rem;
+  border: #1e293b solid 2px;
 }
 
 .container-navbar a{
@@ -368,5 +369,8 @@
   color: white;
   background-color: #1e293b;
   transition: 200ms;
+}
+.active .iconoNav{
+  color: white;
 }
 

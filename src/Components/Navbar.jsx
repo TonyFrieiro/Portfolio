@@ -11,7 +11,7 @@ function NavBar () {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><BsPersonLinesFill size={20}/></Link>
+            ><BsPersonLinesFill size={20} className="iconoNav"/></Link>
             <Link
                 activeClass="active"
                 to="aboutMe-container"
@@ -19,7 +19,7 @@ function NavBar () {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><BsTools size={20}/></Link>
+            ><BsTools size={20}className="iconoNav"/></Link>
             <Link
                 activeClass="active"
                 to="contenedor-education"
@@ -27,7 +27,7 @@ function NavBar () {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><BsBookFill size={20}/></Link>
+            ><BsBookFill size={20}className="iconoNav"/></Link>
             <Link
                 activeClass="active"
                 to="proyectos-container"
@@ -35,7 +35,7 @@ function NavBar () {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><BsLightbulbFill size={20}/></Link>
+            ><BsLightbulbFill size={20}className="iconoNav"/></Link>
         </div>
     )
 }
