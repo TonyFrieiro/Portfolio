@@ -3,12 +3,12 @@ import fotoCV from "../imgs/cv_foto.png"
 function AboutMe (){
     return(
         <div id="aboutMe-container">
-            <div className="subTitulo"> <h2>Sobre mi</h2> </div>
+            <div className="subTitulo"> <h2>About me</h2> </div>
             <div className="aboutMe-container">
                 <div className="conocimientos">
                     <div>
                         <AiOutlineBulb size = {20}></AiOutlineBulb>
-                        <h2>Tecnologias</h2>
+                        <h2>Technologies</h2>
                         <ul>
                             <li>React</li>
                             <li>JavaScript</li>
@@ -21,14 +21,14 @@ function AboutMe (){
                     </div>
                     <div>
                         <AiOutlineTool size = {20}></AiOutlineTool>
-                        <h2>Librerias</h2>
+                        <h2>libraries</h2>
                         <ul>
                             <li>Bootstrap</li>
                         </ul>
                     </div>
                 </div>
                 <div className="textoAbout">
-                    <p>Front end developer con conocimientos en JavaScript, React, Bootstrap con ganas de seguir aprendiendo y adquiriendo experiencia</p>
+                    <p>Front end developer with knowledge in JavaScript, React, Bootstrap with the desire to continue learning and gaining experience</p>
                     <div><AiOutlineArrowDown size = {50}></AiOutlineArrowDown></div>
                 </div>
         </div>

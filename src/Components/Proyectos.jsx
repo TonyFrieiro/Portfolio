@@ -6,14 +6,14 @@ import buscadorPaisesFoto from "../imgs/preview-buscadorpaises.PNG"
 function Proyectos() {
     return(
         <div className="masContainer" id="proyectos-container">
-            <div><h2>Proyectos</h2></div>
+            <div><h2>Projects</h2></div>
             <div className="proyectos-container">
                 <div className="proyectos-euporie">
                     <div>
                         <div><img src={euporieFoto} alt="Preview Proyecto" /></div>
                     </div>
                     <div>
-                        <h4>Simulador Ecommerce con Carrito</h4>
+                        <h4>Ecommerce Simulator with Cart(React,JS,HTML,CSS,Firebase)</h4>
                     </div>
                     <div className="botonera-2">
                         <button className="button-botonera"><a href="https://github.com/TonyFrieiro/ecommerce-React" target="_blank" rel="noopener noreferrer">Github</a></button>
@@ -25,7 +25,7 @@ function Proyectos() {
                         <div><img src={buscadorPaisesFoto} alt="Preview Proyecto" /></div>
                     </div>
                     <div>
-                        <h4>Buscador de paises (Api Paises)</h4>
+                        <h4>Country Finder (Api Countries)(React,js,Html,css,Bootstrap)</h4>
                     </div>
                     <div className="botonera-2">
                         <button className="button-botonera"><a href="https://github.com/TonyFrieiro/BuscadorPaises" target="_blank" rel="noopener noreferrer">Github</a></button>
@@ -37,7 +37,7 @@ function Proyectos() {
                         <div><img src={desarrolloWebFoto} alt="Preview Proyecto" /></div>
                     </div>
                     <div>
-                        <h4>Simulador Ecommerce (HTML Y CSS)</h4>
+                        <h4>Ecommerce Simulator (HTML,CSS,Bootstrap)</h4>
                     </div>
                     <div className="botonera-2">
                         <button className="button-botonera"><a href="https://github.com/TonyFrieiro/ProyectoFrieiro" target="_blank" rel="noopener noreferrer">Github</a></button>

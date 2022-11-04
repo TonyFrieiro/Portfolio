@@ -15,7 +15,7 @@ function Footer(){
                 </button>
             </div>
             <div>
-                <h6>derechos reservados @TonyFrieiro</h6>
+                <h6> @TonyFrieiro</h6>
             </div>
         </div>
     )
